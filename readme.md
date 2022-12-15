@@ -18,3 +18,21 @@
 > Примечание!
 > В самый первый раз перед коммитом он может попросить написать
 > ваш email и имя и не даст закоммитить
+> ```text
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <>) not allowed
+```
+> Чтобы его исправить, надо, как и написано
+> `git config --global user.email "ваш имейл"`
+> `git config --global user.name "ваше имя"`
